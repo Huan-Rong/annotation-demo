@@ -14,7 +14,7 @@ public class ThinkingInJava {
     @BookPrice(bookPrice = 99)
     private Double bookPrice;
 
-    @BookAuthor(authorName = "Da.J", authorPhone = "123", authorAddress = "GZ")
+    @BookAuthor(authorName = "Da.J", authorPhone = "13588880000", authorAddress = "GZ")
     private String bookAuthor;
 
     public String getBookName() {
@@ -45,7 +45,7 @@ public class ThinkingInJava {
         return bookAuthor;
     }
 
-    public void setBookAuthor(String bookAuthor) {
+    public void setBookAuthor(String bookAuthor)  {
         this.bookAuthor = bookAuthor;
     }
 }
